@@ -1,5 +1,5 @@
 {
-  "name": "quiz-app",
+  "name": "my-quiz-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/radio": "^2.1.5",
+    "add": "^2.0.6",
+    "next": "14.2.13",
+    "radio": "^0.2.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   }
 }

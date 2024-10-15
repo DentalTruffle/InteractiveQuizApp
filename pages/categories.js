@@ -1,16 +1,13 @@
 import Link from "next/link";
- import React from "react";
-
- 
+import React from "react";
 
 export default function categoryPage(){
 
-      const categories = [
+    const categories = [
         { name: 'Geography', quizId: 1 },
         { name: 'History', quizId: 2 },
         { name: 'Animals', quizId: 3 }
     ];
-
     return (
        <div className="container">    
          <h1>Please select a category</h1>
